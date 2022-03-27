@@ -1,0 +1,99 @@
+@charset "utf-8";
+/****************************Card*********************************/
+.card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  }
+  .card.is-flipped {
+    transform: rotateY(180deg);
+  }
+
+  div .sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    bottom: 0;
+  }
+
+/****************************Data Filter*********************************/
+  div, div:hover,div:visited, div:active
+    {
+	text-decoration: none;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+    }
+  .datafilter
+  {
+      margin-left: 10px;
+      padding-bottom: 15px;
+  }
+  .datafilter > ul > li
+  {
+      display: inline-block;
+  }
+      
+  .datafilter > ul > li > div
+{
+    padding-right: 30px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #767676;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+  .datafilter > ul > li:last-child
+{
+  font-size: 30px;
+  float:right;
+}
+.datafilter > ul > li > div:hover,
+.datafilter> ul > li.active > div
+{
+	color: #1b1b1b;
+}
+
+.grid {
+  margin: 10px -10px;
+}
+
+/* Add padding BETWEEN each column */
+.grid
+.grid > .column {
+  padding: 8px;
+}
+
+.column {
+    float: left;
+    display: none; /* Hide all elements by default */
+  }
+
+  .product/* Overwrite */
+{
+  padding: 15px;
+	width: 100%;
+	
+}
+
+.show {
+  display: block;
+}
+
+  /* Style the buttons */
+.btn {
+  
+    cursor: pointer;
+  }
+
+   /* banner */
+.main_nav ul li.banner 
+{
+   display: none;
+}
+  
+ 

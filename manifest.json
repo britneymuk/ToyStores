@@ -1,0 +1,34 @@
+{
+    "name": "Toystore",
+    "short_name": "Toystore",
+    "gcm_sender_id": "BCtSxt7MnbdPflIhK2HEwQ5ucPVmEuViR81-v_80OFqn4H_dn_5UENwLQUcYsV2L-vZ-zsNDhpYzEoAWAa3HxJ8",
+    "lang": "en-US",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "theme_color": "#FF9800",
+    "background_color": "#FF9800",
+    "icons": [
+      {
+        "src": "images/touch/icon-128x128.png",
+        "sizes": "128x128"
+      },
+      {
+        "src": "images/touch/icon-192x192.png",
+        "sizes": "192x192",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "images/touch/icon-256x256.png",
+        "sizes": "256x256"
+      },
+      {
+        "src": "images/touch/icon-384x384.png",
+        "sizes": "384x384"
+      },
+      {
+        "src": "images/touch/icon-512x512.png",
+        "sizes": "512x512"
+      }
+    ]
+  }
+  

@@ -1,0 +1,4 @@
+{
+    "appService.deploySubpath": ".",
+    "appService.defaultWebAppToDeploy": "/subscriptions/4d42b210-be74-4d80-b64f-1187733a16ed/resourceGroups/toy/providers/Microsoft.Web/sites/toystores"
+}
